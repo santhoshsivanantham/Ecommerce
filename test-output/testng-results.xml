@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-03T16:49:27 IST" name="Suite" finished-at="2025-05-03T16:49:48 IST" duration-ms="20889">
+    <groups>
+    </groups>
+    <test started-at="2025-05-03T16:49:27 IST" name="Test" finished-at="2025-05-03T16:49:48 IST" duration-ms="20889">
+      <class name="testCase.TC_003_EntoEnd">
+        <test-method is-config="true" signature="setup_suite(java.lang.String)[pri:0, instance:testCase.TC_003_EntoEnd@515aebb0]" started-at="2025-05-03T16:49:26 IST" name="setup_suite" finished-at="2025-05-03T16:49:27 IST" duration-ms="1249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_suite -->
+        <test-method is-config="true" signature="setup_class()[pri:0, instance:testCase.TC_003_EntoEnd@515aebb0]" started-at="2025-05-03T16:49:27 IST" name="setup_class" finished-at="2025-05-03T16:49:31 IST" duration-ms="3718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_class -->
+        <test-method signature="login()[pri:1, instance:testCase.TC_003_EntoEnd@515aebb0]" started-at="2025-05-03T16:49:31 IST" name="login" finished-at="2025-05-03T16:49:35 IST" duration-ms="3825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="search_product()[pri:2, instance:testCase.TC_003_EntoEnd@515aebb0]" started-at="2025-05-03T16:49:35 IST" name="search_product" finished-at="2025-05-03T16:49:41 IST" duration-ms="5997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_product -->
+        <test-method signature="add_to_cart()[pri:3, instance:testCase.TC_003_EntoEnd@515aebb0]" started-at="2025-05-03T16:49:41 IST" name="add_to_cart" finished-at="2025-05-03T16:49:43 IST" depends-on-methods="testCase.TC_003_EntoEnd.search_product" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_to_cart -->
+        <test-method signature="checkout()[pri:4, instance:testCase.TC_003_EntoEnd@515aebb0]" started-at="2025-05-03T16:49:43 IST" name="checkout" finished-at="2025-05-03T16:49:45 IST" duration-ms="1755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="payment()[pri:5, instance:testCase.TC_003_EntoEnd@515aebb0]" started-at="2025-05-03T16:49:45 IST" name="payment" finished-at="2025-05-03T16:49:48 IST" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCase.TC_003_EntoEnd@515aebb0]" started-at="2025-05-03T16:49:48 IST" name="teardown" finished-at="2025-05-03T16:49:49 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCase.TC_003_EntoEnd -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
