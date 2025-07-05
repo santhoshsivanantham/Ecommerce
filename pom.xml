@@ -3,6 +3,8 @@
   <groupId>Ecommerce</groupId>
   <artifactId>Ecommerce</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
   <dependencies>
 	
 	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -31,7 +33,6 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.11.0</version>
-    <scope>test</scope>
 </dependency>
 
 <dependency>
